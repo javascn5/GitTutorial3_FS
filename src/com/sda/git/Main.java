@@ -9,6 +9,8 @@ public class Main {
 
         System.out.println(user1.toString());
 
+        System.out.println("dodatek 3 zmiany");
+
 	// write your code here
     }
 }
