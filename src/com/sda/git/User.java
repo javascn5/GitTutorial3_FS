@@ -10,4 +10,13 @@ public class User {
         this.lastname = lastname;
         this.age = age;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", lastname='" + lastname + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
